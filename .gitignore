@@ -1,0 +1,8 @@
+$ cat .gitignore
+bin/**
+build/**
+nbproject/**
+.idea/**
+.vscode/**
+modulebuilder.txt
+simplestats.code-workspace
