@@ -1,0 +1,32 @@
+{
+  "name": "hemiframe/php-econt",
+  "description": "This bundle provides integration with ECONT Courier",
+  "version": "2.1.2",
+  "keywords": [
+    "econt",
+    "courier"
+  ],
+  "authors": [
+    {
+      "name": "Martin",
+      "email": "heminei@heminei.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Bozhidar Hristov",
+      "email": "b.hristov@vm5.eu"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/heminei/php-http-message/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "HemiFrame\\Lib\\Econt\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "php": ">=7.1"
+  }
+}

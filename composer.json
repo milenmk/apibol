@@ -1,0 +1,5 @@
+{
+  "require": {
+    "hemiframe/php-econt": "^2.1"
+  }
+}
